@@ -4,6 +4,7 @@ requires-python = ">=3.10"
 authors = [{ "name" = "Avery Warddhana", "email" = "them+pypi@nullablevo.id.au" }]
 keywords = ["demangling", "msvc"]
 classifiers = ["Topic :: Software Development :: Compilers"]
+repository = "https://github.com/nullableVoidPtr/demurr"
 dynamic = ["version", "description"]
 
 [build-system]
