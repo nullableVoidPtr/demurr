@@ -5,6 +5,7 @@ authors = [{ "name" = "Avery Warddhana", "email" = "them+pypi@nullablevo.id.au" 
 keywords = ["demangling", "msvc"]
 classifiers = ["Topic :: Software Development :: Compilers"]
 repository = "https://github.com/nullableVoidPtr/demurr"
+readme = "README.md"
 dynamic = ["version", "description"]
 
 [build-system]
