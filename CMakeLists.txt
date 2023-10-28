@@ -32,6 +32,7 @@ pybind11_add_module(_msvc_module MODULE
                     "src/third_party/llvm/lib/Demangle/MicrosoftDemangle.cpp"
                     "src/third_party/llvm/lib/Demangle/MicrosoftDemangleNodes.cpp")
 
+target_compile_features(_msvc_module PRIVATE cxx_std_17)
 target_compile_definitions(_msvc_module PRIVATE
     MODULE_NAME=$<TARGET_FILE_BASE_NAME:_msvc_module>
     VERSION_INFO="${PY_FULL_VERSION}"

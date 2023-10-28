@@ -50,3 +50,6 @@ CMAKE_RELWITHDEBINFO_POSTFIX = "_d"
 
 [tool.py-build-cmake.stubgen]
 args = ["-v"]
+
+[tool.cibuildwheel]
+skip = ["*-win32", "*-manylinux_i686"]
